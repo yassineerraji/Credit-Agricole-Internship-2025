@@ -88,7 +88,7 @@ DynaScrap/
 ## 🛠️ Technical Details
 
 ### Document Processing
-- PDF text extraction using PyPDF2
+- PDF text extraction using PyMuPDF4LLM
 - Text processing with local LLM models
 - Markdown and PDF export capabilities
 
