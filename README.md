@@ -106,4 +106,4 @@ Credit Agricole Summer Internship 2025
 
 ## 📝 License
 
-This project is licensed under the ... License - see the LICENSE file for details.
+This project is licensed under the MIT License for now but may change soon.
