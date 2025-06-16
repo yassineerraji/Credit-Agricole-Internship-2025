@@ -21,8 +21,7 @@ The application supports multiple local LLM models:
 
 ### 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/DynaScrap.git
-cd DynaScrap
+git clone https://github.com/yassineerraji/Credit-Agricole-Internship-2025.git
 ```
 
 ### 2. **Create a virtual environment**
