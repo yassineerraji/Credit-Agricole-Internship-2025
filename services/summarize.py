@@ -11,7 +11,7 @@ def summarize_document(text: str, model_choice: str) -> str:
     with open("prompts/summarize.txt", "r", encoding="utf-8") as f:
         prompt = f.read()
 
-    full_prompt = f"{prompt}\n\nText to summarize:\n\n{text}"
+    full_prompt = f"{prompt}\n\nDocument to summarize:\n<<<\n{text}>>>"
 
     try:
         # Get a new LLM service instance with the selected model
