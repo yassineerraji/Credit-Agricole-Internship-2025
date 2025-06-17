@@ -12,7 +12,7 @@ def compare_documents(old_text: str, new_text: str, model_choice: str) -> str:
     with open("prompts/compare.txt", "r", encoding="utf-8") as f:
         prompt = f.read()
 
-    full_prompt = f"{prompt}\n\nPrevious text :\n\n{old_text}\n\nNew text :\n\n{new_text}"
+    full_prompt = f"{prompt}\n\n<<< Previous text >>>\n{old_text}\n\n<<< New text >>>\n{new_text}\n"
 
     try:
         # Get a new LLM service instance with the selected model
